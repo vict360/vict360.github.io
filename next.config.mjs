@@ -2,12 +2,15 @@
 * @type {import('next').NextConfig}
 */
 const nextConfig = {
-    images: {
+  
+  output: 'export',
+  
+  images: {
       loader: 'akamai',
       path: '',
     },
     assetPrefix: './',
-    
+
   };
   
   export default nextConfig;
