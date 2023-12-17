@@ -12,23 +12,23 @@ export default function Home() {
   let data = [
     {text: 'Aplicación web progresiva (PWA) estatica para Red Convenios Chile, cuenta con inicio de sesión, registro de usuarios, escaner y generador de códigos QR, historial de asistencias y ahorros, sistema de administración de Pymes y más.',
 
-    link: '/recc.png',
+    link: './recc.png',
     tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
     state: 'public'
   
     },
     {text: 'Servidor API REST que proporciona información para Red Convenios Chile, con conexión a base de datos MySQL con distintas entidades para la gestión de Pymes y descuentos ofrecidos por las mismas, adémas de asegurar historiales a largo plazo.',
-    link: '/backend_rcc.png',
+    link: './backend_rcc.png',
     tech: ['Django', 'Python', 'DRF'],
     state: 'private'
     },
     {text: 'Proyecto personal de práctica de una página web gastrónomica autoadministrable, con registro de usuarios, categorias, comidas, etc.',
-    link: '/reactstore.png',
+    link: './reactstore.png',
     tech: ['Mongo', 'Express', 'React', 'Node Js', 'Tailwind css'],
     state: 'private'
     },
     {text: 'Mi portafolio personal para demostrar conocimientos técnicos adquiridos y aplicados :)',
-    link: '/portafolio.png',
+    link: './portafolio.png',
     tech: ['Next JS', 'Tailwind css'],
     state: 'public'
     },
@@ -39,14 +39,14 @@ export default function Home() {
   let mobile = [
     {text: 'Aplicación móvil desarrollada para el proyecto de Titulación, con control de acceso, escaner de códigos QR, registro de usuarios, mascotas, procedimientos y visualización de ficha digital.',
 
-    link: '/appvet.gif',
+    link: './appvet.gif',
     tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
     state: 'private'
   
     },
     {text: 'Aplicación móvil para proyecto de titulación, que permite al cliente ver la ficha de sus mascotas y generar códigos QR de las mismas para que sean escaneados por Vet Check.',
 
-    link: '/appcliente.gif',
+    link: './appcliente.gif',
     tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
     state: 'private'
   
@@ -86,7 +86,7 @@ export default function Home() {
                       <div className="self-center">
                         <Image
                         className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                        src="/download.svg"
+                        src="./download.svg"
                         alt="Next.js Logo"
                         width={20}
                         height={20}
