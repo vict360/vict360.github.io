@@ -25,7 +25,7 @@ const Contacts = ()=>{
                 <div className='w-10/12 sm:w-8/12 md:w-8/12 lg:w-10/12'>
                   <div className='h-auto pb-10'>
 
-                    <p className='text-center text-xl pt-5'>I'm Currently available</p>
+                    <p className='text-center text-xl pt-5'>I&apos;m Currently available</p>
                     <p className='text-center text-xl pb-6'>For <b className='italic font-semibold'>Full Work</b> or <b className='italic font-semibold'>Freelance</b></p>
 
                     <div className='flex flex-row flex-wrap justify-center'>
