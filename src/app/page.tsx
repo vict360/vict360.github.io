@@ -13,7 +13,7 @@ import AboutMe from "./componets/about-me"
 
 export default function Home() {
 
-  const cv = "http://localhost:3000/CV_Victor_Vargas.pdf"
+  const cv = "http://vict360.github.io/CV_Victor_Vargas.pdf"
 
   const download_cv = (url:any)=>{
     const filename = url.split("/").pop()
