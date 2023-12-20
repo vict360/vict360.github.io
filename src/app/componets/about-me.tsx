@@ -44,7 +44,8 @@ const AboutMe = () => {
                 <div className="flex flex-row justify-center">
                     <div className='w-10/12 sm:w-8/12 md:w-8/12 lg:w-10/12'>
                 <p className='text-lg text-justify p-10 pt-6 break-words'>
-                    Graduated from <b className="font-semibold italic">IT engineering</b> in <b className="font-semibold italic">2023</b> from <b  className="font-semibold italic">Duoc UC</b> in <b  className="font-semibold italic">Chile</b> with mention in <b className="font-semibold italic">Data Science</b>, Apassionated for tech since child, always interested in keep learning and <b className="font-semibold italic">Be Better</b>, I see my self as a person with <b className="font-semibold italic"> high analisys, organized, proactive, productive, responsable.</b> My specialties are: <b className="font-semibold italic">Fullstack developer, Data scientist & App developer.</b>
+                Graduated from <b className="font-semibold italic">IT Engineering</b> in <b className="font-semibold italic">2023</b> from <b className="font-semibold italic">Duoc UC</b> in <b className="font-semibold italic">Chile</b> with a mention in <b className="font-semibold italic">Data Science</b>. Passionate about tech since childhood, always interested in continuous learning and <b className="font-semibold italic">self-improvement</b>. I see myself as a person with <b className="font-semibold italic">Great Analytical Capacity</b>, <b className="font-semibold italic">Organizational Skills</b>, <b className="font-semibold italic">Proactivity</b>, <b className="font-semibold italic">Productivity</b>and <b className="font-semibold italic">Responsibility</b>. My specialties include <b className="font-semibold italic">Full-stack Development</b>, <b className="font-semibold italic">Data Science</b>, and <b className="font-semibold italic">App Development.</b>
+
                 </p>
             </div>
             </div>

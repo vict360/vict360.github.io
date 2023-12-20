@@ -7,24 +7,24 @@ const WebProjects = () => {
     let data = [
 
         {
-          title: 'Aplicación web Red Convenios Chile',
-          text: 'Aplicación web progresiva (PWA) estatica para Red Convenios Chile, cuenta con inicio de sesión, registro de usuarios, escaner y generador de códigos QR, historial de asistencias y ahorros, sistema de administración de Pymes y más.',
+          title: "Red Convenios Chile's PWA",
+          text: 'Static Progressive Web Application (PWA) for Red Convenios Chile. It includes login, user registration, QR code scanner and generator, attendance and savings history, SME management system, and more.',
     
-        link: './recc.png',
+        link: './rcc.gif',
         tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
         state: 'public'
       
         },
         {
-          title: 'API REST Red Convenios Chile',
-          text: 'Servidor API REST que proporciona información para Red Convenios Chile, con conexión a base de datos MySQL con distintas entidades para la gestión de Pymes y descuentos ofrecidos por las mismas, adémas de asegurar historiales a largo plazo.',
+          title: "Red Convenios Chile's RESTful API",
+          text: "RESTful API server providing information for Red Convenios Chile, connected to a MySQL database with various entities for the management of Pymes (SMEs) and the discounts offered by them, as well as ensuring long-term histories.",
         link: './backend_rcc.png',
         tech: ['Django', 'Python', 'DRF'],
         state: 'private'
         },
         {
-          title: 'Proyecto React Store',
-          text: 'Proyecto personal de práctica de una página web gastrónomica autoadministrable, con registro de usuarios, categorias, comidas, etc.',
+          title: 'Practice project',
+          text: "Personal practice project of a self-administrable gastronomic website, featuring login with access token, user registration, categories, dishes, business presentation, among other functionalities.",
         link: './reactstore.png',
         tech: ['Mongo', 'Express', 'React', 'Node Js', 'Tailwind css'],
         state: 'private'

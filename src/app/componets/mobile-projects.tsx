@@ -6,8 +6,8 @@ const MobileProjects = () => {
 
     let data = [
         {
-          title: 'Aplicación Móvil Vet Check',
-          text: 'Aplicación móvil desarrollada para el proyecto de Titulación, con control de acceso, escaner de códigos QR, registro de usuarios, mascotas, procedimientos y visualización de ficha digital.',
+          title: 'Mobile App Vet Check',
+          text: 'Mobile App developed for the Degree Project, featuring access control, QR code scanner, user registration, pets, procedures, and digital record visualization.',
     
           link: './appvet.gif',
           tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
@@ -15,8 +15,8 @@ const MobileProjects = () => {
       
         },
         {
-          title: 'Aplicación móvil Mascotas Felices',
-          text: 'Aplicación móvil para proyecto de titulación, que permite al cliente ver la ficha de sus mascotas y generar códigos QR de las mismas para que sean escaneados por Vet Check.',
+          title: 'Mobile App "Mascotas Felices"',
+          text: "Mobile App for graduation project, enabling clients to view their pets' records and generate QR codes for them to be scanned by Vet Check",
     
           link: './appcliente.gif',
           tech: ['Ionic', 'Angular', 'CSS', 'Plugins'],
