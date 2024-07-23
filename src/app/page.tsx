@@ -9,6 +9,7 @@ import Experience from "./componets/experience"
 import AboutMe from "./componets/about-me"
 import MotionDiv from "./componets/MotionDiv"
 import DownloadButton from "./componets/DownloadButton"
+import Image from "next/image"
 
 export default function Home() {
 
@@ -37,7 +38,7 @@ export default function Home() {
                 </div>
                 <div className='self-center transition duration-200 delay-150 ease-in-out hover:scale-125'>
                   <a href="https://github.com/vict360?tab=repositories">
-                  <img className='h-10 w-10 rounded-sm object-contain' src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" />
+                  <Image className='h-10 w-10 rounded-sm object-contain' src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="github_logo" />
                   </a>
                 </div>
                 <div className='self-center transition duration-200 delay-150 ease-in-out hover:scale-125'>

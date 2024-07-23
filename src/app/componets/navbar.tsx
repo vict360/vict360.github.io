@@ -21,7 +21,7 @@ export default function Navbar(){
             <div id='nav' className='bg-slate-400/30 backdrop-blur-2xl border-2 border-white/50 rounded-full sm:w-6/12 md:w-auto p-4 sm:p-4 sm:pl-6 sm:pr-6 fixed top-4 opacity-80 text-black shadow-sm'>
             <ul className='flex flex-row justify-center gap-10'>
                 {links.map((el)=>(
-                    <li>
+                    <li key={el}>
                         <a href={`#`+el} className="capitalize">{el}</a>
                     </li>
                 ))}
