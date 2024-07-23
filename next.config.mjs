@@ -7,6 +7,7 @@ const nextConfig = {
   distDir: 'dist',
 
   images:{
+    unoptimized: true,
     domains: [
       "https://github.githubassets.com/",
       "https://play-lh.googleusercontent.com/",
@@ -19,6 +20,7 @@ const nextConfig = {
       "https://colab.research.google.com/",
       "https://www.zestbrains.com/",
       "https://cdn3.iconfinder.com/",
+      "https://play-lh.googleusercontent.com/"
     ]
   }
 

@@ -38,12 +38,12 @@ export default function Home() {
                 </div>
                 <div className='self-center transition duration-200 delay-150 ease-in-out hover:scale-125'>
                   <a href="https://github.com/vict360?tab=repositories">
-                  <Image className='h-10 w-10 rounded-sm object-contain' src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="github_logo" />
+                  <Image className='h-10 w-10 rounded-sm object-contain' width={16} height={16} src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="github_logo" />
                   </a>
                 </div>
                 <div className='self-center transition duration-200 delay-150 ease-in-out hover:scale-125'>
                   <a href="https://www.linkedin.com/in/victor-vargas-314a851ba/">
-                  <img className=' h-10 w-10 rounded-sm object-contain hover:opacity-75' src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" alt="" />
+                  <Image className=' h-10 w-10 rounded-sm object-contain hover:opacity-75' src="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw" width={16} height={16} alt="" />
                   </a>
                 </div>
               </div>
