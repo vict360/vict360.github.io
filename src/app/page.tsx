@@ -14,7 +14,7 @@ import Image from "next/image"
 export default function Home() {
 
   return (
-      <main id='name' className="flex min-h-screen flex-col items-center justify-between w-full text-slate-800 bg-slate-200 lg:p-24 select-none">
+      <main id='me' className="flex min-h-screen flex-col items-center justify-between w-full text-slate-800 bg-slate-200 lg:p-24 select-none">
 
         <div className='relative'>
 
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
           </MotionDiv>
 
-
+          <div id="projects"></div>
           <div id="web-projects" className="pt-20">
             <MotionDiv>
               <h3 className="text-center p-10 text-3xl font-semibold">Projects</h3>
@@ -67,19 +67,21 @@ export default function Home() {
             </MotionDiv>
           </div>
           
-          
+          <div id="experience"></div>
           <MotionDiv>
             <Experience/>
           </MotionDiv>
-
+          <div id="technologies"></div>
           <MotionDiv>
             <Tech/>
           </MotionDiv>
 
+          <div id="about"></div>
           <MotionDiv>
             <AboutMe/>
           </MotionDiv>
 
+          <div id="contact"></div>
           <MotionDiv>
             <Contacts/>
           </MotionDiv>
